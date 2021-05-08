@@ -1,13 +1,20 @@
 package biblioteca;
 
 public class Sebenta implements Livro{
+
+	public String titulo;
+	public String autor;
+	public String editora;
+	public String anoPublicacao;
 	
-	String tipoLivro;
-	
-	public void cria() {
+
+	@Override
+	public void cria(String t, String a, String e, String aP) {
 		// TODO Auto-generated method stub
-		tipoLivro = "Sebenta";
-		System.out.println("Inside Sebenta::cria() method");
+		this.titulo=t;
+		this.autor=a;
+		this.editora=e;
+		this.anoPublicacao=aP;
 	}
 	
 

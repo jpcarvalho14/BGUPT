@@ -8,7 +8,10 @@ public class GereBiblioteca {
 		
 		Livro l1 = factory.getTipo("Cientifico");
 		
-		l1.cria();
+	
+		l1.cria("Java","Jose","Editora A","08/05/2021");
+		
+		
 		
 		
 	}
