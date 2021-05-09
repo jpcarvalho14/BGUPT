@@ -16,6 +16,30 @@ public class Bibliografia implements Livro{
 		this.anoPublicacao=aP;
 		System.out.println("Inside Bibliografia::cria() method");
 	}
+
+	@Override
+	public void imprimeLivro() {
+		// TODO Auto-generated method stub
+		System.out.println("Titulo: "+titulo+"\nAutor: "+autor+"\nEditora: "+editora+"\nAno Publicacao: "+anoPublicacao); 
+	}
+
+	@Override
+	public String getTitulo() {
+		// TODO Auto-generated method stub
+		return titulo;
+	}
+
+	@Override
+	public String getAutor() {
+		// TODO Auto-generated method stub
+		return autor;
+	}
+
+	@Override
+	public String getEditora() {
+		// TODO Auto-generated method stub
+		return editora;
+	}
 	
 
 }
